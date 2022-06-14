@@ -1,0 +1,18 @@
+/* Flex container => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+  /* Flex Container Properties */
+  display: flex;
+  justify-content: center;
+}
+
+/* Flex Items => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+}
