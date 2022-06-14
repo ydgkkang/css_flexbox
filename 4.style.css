@@ -1,0 +1,46 @@
+/* Flex container => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+  display: flex;
+  /* 1.1 */
+  /* flex-direction: row; */
+  /* flex-direction: row; */
+
+  /* 1.2 */
+  /* Row Reverse */
+  /* flex-direction: row-reverse; */
+
+  /* 1.3 */
+  /* flex-column */
+  /* flex-direction: column;  */
+
+  /* 1.4 */
+  /* flex-reverse-column */
+  /* flex-direction: column-reverse;;  */
+
+  /************ FLEX WRAP *************/
+
+  /* 2.1 */
+  /* NoWrap */
+
+  /* 2.2 */
+  /* Wrap */  
+  /* flex-wrap: wrap; */
+
+  /* 2.3 */
+  /* Wrap Reverse */  
+  /* flex-wrap: wrap-reverse;   */
+}
+
+
+li {
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  font-size:20px;
+  width: 100px;
+}
+  
